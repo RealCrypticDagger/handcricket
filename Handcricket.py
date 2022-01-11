@@ -13,6 +13,8 @@ window = Tk()
 window.title("Handcricket")
 window.geometry("640x360")
 window.resizable(width=False, height=False)
+window.iconbitmap('icon.ico')
+window.mainloop()
 
 bgframe = Frame(window)
 bgframe.pack(side="top", expand=1)

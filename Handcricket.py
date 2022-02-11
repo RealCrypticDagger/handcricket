@@ -13,16 +13,16 @@ window = Tk()
 window.title("Handcricket")
 window.geometry("640x360")
 window.resizable(width=False, height=False)
-window.iconbitmap('E:\Github\handcricket\icon.ico')
+window.iconbitmap('icon.ico')
 
 bgframe = Frame(window)
 bgframe.pack(side="top", expand=1)
 bgframe.place(x= 0, y= 0)
-bgimage = PhotoImage(file = 'E:\Github\handcricket\wallpaper.png')
+bgimage = PhotoImage(file = 'wallpaper.png')
 bgwidget = Label(bgframe, image = bgimage)
 bgwidget.pack()
 
-buttonimage = PhotoImage(file = 'E:\Github\handcricket\\button.png')
+buttonimage = PhotoImage(file = 'button.png')
 
 
 #Starting Heading
